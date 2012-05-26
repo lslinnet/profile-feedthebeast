@@ -1,1 +1,4 @@
 .idea
+libraries
+modules/contrib
+themes/contrib
