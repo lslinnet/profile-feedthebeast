@@ -55,8 +55,8 @@ a:hover, a:active {
 }
 .media-slider .slideshow-controls-bottom {
   z-index: 10;
-  margin: 8px auto;
-  width: 50px;
+  text-align: center;
+  margin: 10px auto 0;
 }
 
 .media-slider .slideshow-controls-bottom a {
