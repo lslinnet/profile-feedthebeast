@@ -23,6 +23,10 @@ header.branding {
   box-shadow: 0px 3px 5px 0px rgba(33, 33, 33, 0.80);
 }
 
+section.page-site-name {
+  font-size: 72px;
+}
+
 /*
  * Links
  */
@@ -40,12 +44,54 @@ a:hover, a:active {
   text-decoration: underline;
 }
 
-
-.slideshow-controls-bottom {
-  clear:both;
-}
-
 .branding nav li a:hover, .branding nav li a.active, .branding nav li a.active-trail {
   background-color: black;
   color: white;
+}
+
+.media-slider {
+  float: right;
+  width: 640px;
+}
+.media-slider .slideshow-controls-bottom {
+  z-index: 10;
+  margin: 8px auto;
+  width: 50px;
+}
+
+.media-slider .slideshow-controls-bottom a {
+  background-color: #555;
+  color: #333;
+  border-radius: 8px;
+  display: inline-block;
+  padding: 5px;
+  font-size: 1px;
+  float:left;
+  margin-left: 4px;
+}
+
+.media-slider .slideshow-controls-bottom a.activeSlide {
+  background-color: #777;
+}
+
+.media-slider .slideshow-controls-bottom a:hover {
+  background-color: #333;
+}
+
+
+.view-news-flow .views-row {
+  border: none;
+  background-color: rgba(33, 33, 33, 0.60);
+  margin-bottom: 16px;
+  border: 1px solid black;
+}
+
+.view-news-flow .views-row>* {
+  margin: 0 20px;
+}
+
+.view-news-flow .views-row>h2 {
+  font-size: 21px;
+  font-weight: bolder;
+  margin-bottom: 10px;
 }

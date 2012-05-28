@@ -2,6 +2,7 @@ name = Frontpage Splash
 description = The default FTB frontpage splash
 core = 7.x
 package = FeedTheBeast
+php = 5.2.4
 version = 7.x-1.0
 project = ftb_frontpage_splash
 dependencies[] = ctools

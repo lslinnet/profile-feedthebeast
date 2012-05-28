@@ -15,7 +15,7 @@
           console.log($(field));
           if ($('.field-media > div', field).length > 1) {
             pagerNumber = pagerNumber + 1;
-            field.append('<div class="slideshow-controls-bottom"></div>');
+            field.append('<div class="slideshow-controls-bottom clearfix"></div>');
             $('.slideshow-controls-bottom', field).append('<div class="slideshow-pager-' + pagerNumber + '"></div>');
             $('.slides', field).cycle({
               fx:'fade',

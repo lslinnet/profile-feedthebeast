@@ -12,6 +12,9 @@ projects[mollom][version] = 2.0
 projects[mollom][subdir] = contrib
 projects[logintoboggan][version] = 1.3
 projects[logintoboggan][subdir] = contrib
+projects[fontyourface][version] = 2.2
+projects[fontyourface][subdir] = contrib
+
 
 ; The enterprise product
 projects[fences][version] = 1.0-beta2

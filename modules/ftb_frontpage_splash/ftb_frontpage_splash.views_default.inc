@@ -32,6 +32,7 @@ function ftb_frontpage_splash_views_default_views() {
   $handler->display->display_options['pager']['options']['items_per_page'] = '10';
   $handler->display->display_options['pager']['options']['offset'] = '0';
   $handler->display->display_options['style_plugin'] = 'default';
+  $handler->display->display_options['style_options']['row_class'] = 'clearfix';
   $handler->display->display_options['row_plugin'] = 'fields';
   /* Field: Media */
   $handler->display->display_options['fields']['field_media']['id'] = 'field_media';
@@ -119,12 +120,11 @@ function ftb_frontpage_splash_views_default_views() {
   $handler->display->display_options['fields']['field_lead']['alter']['html'] = 0;
   $handler->display->display_options['fields']['field_lead']['element_type'] = '0';
   $handler->display->display_options['fields']['field_lead']['element_label_colon'] = FALSE;
-  $handler->display->display_options['fields']['field_lead']['element_wrapper_type'] = '0';
+  $handler->display->display_options['fields']['field_lead']['element_wrapper_type'] = 'p';
   $handler->display->display_options['fields']['field_lead']['element_default_classes'] = 0;
   $handler->display->display_options['fields']['field_lead']['hide_empty'] = 0;
   $handler->display->display_options['fields']['field_lead']['empty_zero'] = 0;
   $handler->display->display_options['fields']['field_lead']['hide_alter_empty'] = 1;
-  $handler->display->display_options['fields']['field_lead']['type'] = 'text_trimmed';
   $handler->display->display_options['fields']['field_lead']['settings'] = array(
     'trim_length' => '600',
   );

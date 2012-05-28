@@ -84,6 +84,27 @@ function ftb_frontpage_splash_default_page_manager_handlers() {
     $display->panels['branding'][1] = 'new-2';
     $pane = new stdClass();
     $pane->pid = 'new-3';
+    $pane->panel = 'branding_left';
+    $pane->type = 'block';
+    $pane->subtype = 'logintoboggan-logintoboggan_logged_in';
+    $pane->shown = TRUE;
+    $pane->access = array();
+    $pane->configuration = array(
+      'override_title' => 1,
+      'override_title_text' => '',
+    );
+    $pane->cache = array();
+    $pane->style = array(
+      'settings' => NULL,
+    );
+    $pane->css = array();
+    $pane->extras = array();
+    $pane->position = 0;
+    $pane->locks = array();
+    $display->content['new-3'] = $pane;
+    $display->panels['branding_left'][0] = 'new-3';
+    $pane = new stdClass();
+    $pane->pid = 'new-4';
     $pane->panel = 'content';
     $pane->type = 'pane_messages';
     $pane->subtype = 'pane_messages';
@@ -98,10 +119,10 @@ function ftb_frontpage_splash_default_page_manager_handlers() {
     $pane->extras = array();
     $pane->position = 0;
     $pane->locks = array();
-    $display->content['new-3'] = $pane;
-    $display->panels['content'][0] = 'new-3';
+    $display->content['new-4'] = $pane;
+    $display->panels['content'][0] = 'new-4';
     $pane = new stdClass();
-    $pane->pid = 'new-4';
+    $pane->pid = 'new-5';
     $pane->panel = 'content';
     $pane->type = 'page_content';
     $pane->subtype = 'page_content';
@@ -120,10 +141,10 @@ function ftb_frontpage_splash_default_page_manager_handlers() {
     $pane->extras = array();
     $pane->position = 1;
     $pane->locks = array();
-    $display->content['new-4'] = $pane;
-    $display->panels['content'][1] = 'new-4';
+    $display->content['new-5'] = $pane;
+    $display->panels['content'][1] = 'new-5';
     $pane = new stdClass();
-    $pane->pid = 'new-5';
+    $pane->pid = 'new-6';
     $pane->panel = 'nav';
     $pane->type = 'menu_tree';
     $pane->subtype = 'main-menu';
@@ -150,8 +171,8 @@ function ftb_frontpage_splash_default_page_manager_handlers() {
     $pane->extras = array();
     $pane->position = 0;
     $pane->locks = array();
-    $display->content['new-5'] = $pane;
-    $display->panels['nav'][0] = 'new-5';
+    $display->content['new-6'] = $pane;
+    $display->panels['nav'][0] = 'new-6';
   $display->hide_title = PANELS_TITLE_NONE;
   $display->title_pane = 'new-1';
   $handler->conf['display'] = $display;
@@ -172,7 +193,10 @@ function ftb_frontpage_splash_default_page_manager_pages() {
   $page->admin_title = 'Frontpage Splashpage';
   $page->admin_description = 'The First frontpage splash page';
   $page->path = 'frontpage';
-  $page->access = array();
+  $page->access = array(
+    'type' => 'none',
+    'settings' => NULL,
+  );
   $page->menu = array();
   $page->arguments = array();
   $page->conf = array(
