@@ -1,0 +1,47 @@
+.page-content section>h2.pane-title {
+  margin: 0 0 20px 0;
+}
+
+.main>section {
+  line-height: 1.25em;
+}
+
+
+section.highlighted {
+  padding: 1px 0;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+
+  background-color: #224787;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#224787), to(#021530));
+  background-image: -webkit-linear-gradient(top, #224787, #021530);
+  background-image: -moz-linear-gradient(top, #224787, #021530);
+  background-image: -ms-linear-gradient(top, #224787, #021530);
+  background-image: -o-linear-gradient(top, #224787, #021530);
+  background-image: linear-gradient(to bottom, #224787, #021530);
+
+  text-shadow: 1px 1px 3px #252525;
+  border: 3px solid #224787;
+
+  color: #fff;
+}
+
+section.highlighted > * {
+  margin: 10px;
+}
+
+section.highlighted > h2.pane-title {
+  margin: 10px;
+  line-height: 1.25em;
+  color: white;
+  border-bottom: 2px solid #0d2446;
+}
+
+section.highlighted > ul {
+  list-style-type: none;
+  text-align: center;
+}

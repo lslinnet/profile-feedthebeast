@@ -1,7 +1,7 @@
 <?php
 
-function ftb_install() {
-  theme_enable(array('lucid'));
-  variable_set('theme_default', 'lucid');
+function feedthebeast_install() {
+  theme_enable(array('ftb_theme'));
+  variable_set('theme_default', 'ftb_theme');
   variable_set('node_admin_theme', 'seven');
 }

@@ -1,0 +1,10 @@
+name = Feed The Beast
+description = A theme that extends the basic Lucid theme.
+core = 7.x
+engine = phptemplate
+
+base theme = lucid
+
+
+stylesheets[screen][] = css/stylizer.css
+stylesheets[screen][] = css/style.css

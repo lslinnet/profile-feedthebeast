@@ -5,7 +5,7 @@ php = 5.2.4
 dependencies[] = ctools
 dependencies[] = libraries
 dependencies[] = entitycache
-dependencies[] = toolbar
+
 dependencies[] = pathauto
 dependencies[] = xmlsitemap
 dependencies[] = metatag
@@ -14,7 +14,7 @@ dependencies[] = fences
 dependencies[] = fape
 dependencies[] = ns_core
 dependencies[] = semantic_panels
-dependencies[] = lucid
+
 dependencies[] = menu
 dependencies[] = image
 dependencies[] = file_entity
@@ -32,3 +32,26 @@ dependencies[] = taxonomy
 dependencies[] = views
 dependencies[] = views_content
 dependencies[] = ns_markdown
+
+dependencies[] = ctools_custom_content
+dependencies[] = number
+dependencies[] = stylizer
+dependencies[] = entityreference
+dependencies[] = link
+dependencies[] = media
+dependencies[] = media_internet
+dependencies[] = media_youtube
+dependencies[] = diff
+dependencies[] = linkit
+dependencies[] = menu_block_export
+
+dependencies[] = views
+dependencies[] = views_ui
+
+
+; Development modules
+dependencies[] = admin_devel
+dependencies[] = admin_menu
+dependencies[] = admin_menu_toolbar
+dependencies[] = field_ui
+
