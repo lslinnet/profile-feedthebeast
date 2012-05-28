@@ -41,8 +41,12 @@ projects[lucid][download][type] = git
 projects[lucid][download][branch] = 7.x-1.x
 projects[lucid][subdir] = contrib
 
+projects[ns_theme][type] = theme
+projects[ns_theme][version] = 2.0-alpha4
+projects[ns_theme][subdir] = contrib
+
 
 ; Libraries
 libraries[jquery.cycle][download][type] = get
-libraries[jquery.cycle][download][url] = http://malsup.com/jquery/cycle/release/jquery.cycle.zip?v2.99
+libraries[jquery.cycle][download][url] = http://malsup.com/jquery/cycle/release/jquery.cycle.zip?v2.9999.5
 libraries[jquery.cycle][destination] = libraries
