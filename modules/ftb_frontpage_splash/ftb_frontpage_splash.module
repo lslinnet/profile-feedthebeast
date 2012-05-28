@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Frontpage Splash feature.
+ */
+
+include_once 'ftb_frontpage_splash.features.inc';
