@@ -47,6 +47,7 @@ dependencies[] = menu_block_export
 
 dependencies[] = views
 dependencies[] = views_ui
+dependencies[] = logintoboggan
 
 
 ; Development modules

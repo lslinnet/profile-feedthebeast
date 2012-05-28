@@ -10,7 +10,8 @@ projects[metatag][version] = 1.0-alpha6
 projects[metatag][subdir] = contrib
 projects[mollom][version] = 2.0
 projects[mollom][subdir] = contrib
-
+projects[logintoboggan][version] = 1.3
+projects[logintoboggan][subdir] = contrib
 
 ; The enterprise product
 projects[fences][version] = 1.0-beta2
@@ -39,3 +40,9 @@ projects[lucid][version] = 1.x
 projects[lucid][download][type] = git
 projects[lucid][download][branch] = 7.x-1.x
 projects[lucid][subdir] = contrib
+
+
+; Libraries
+libraries[jquery.cycle][download][type] = get
+libraries[jquery.cycle][download][url] = http://malsup.com/jquery/cycle/release/jquery.cycle.zip?v2.99
+libraries[jquery.cycle][destination] = libraries
