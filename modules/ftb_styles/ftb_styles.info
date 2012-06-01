@@ -1,0 +1,6 @@
+name = "FeedTheBeast Media styles"
+package = FeedTheBeast
+core = "7.x"
+dependencies[] = "image"
+description = "Some handy image styles used for FeedTheBeast"
+php = "5.2.4"

@@ -1,0 +1,32 @@
+<?php
+/**
+ * @file
+ * Code for the ftb_styles feature.
+ */
+
+/**
+ * Implements hook_entity_info_alter().
+ * Add some view modes to the file entity.
+ */
+function ftb_styles_entity_info_alter(&$entity_info) {
+  if (isset($entity_info['file'])) {
+    $entity_info['file']['view modes'] += array(
+      'ftb_styles_grid2' => array(
+        'label' => t('FTB grid2 140x78'),
+        'custom settings' => TRUE,
+      ),
+      'ftb_styles_grid3' => array(
+        'label' => t('FTB grid3 220x140'),
+        'custom settings' => TRUE,
+      ),
+      'ftb_styles_grid4' => array(
+        'label' => t('FTB grid4 300x170'),
+        'custom settings' => TRUE,
+      ),
+      'ftb_styles_grid5' => array(
+        'label' => t('FTB grid5 380x214'),
+        'custom settings' => TRUE,
+      ),
+    );
+  }
+}
