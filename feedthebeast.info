@@ -50,6 +50,8 @@ dependencies[] = views_ui
 dependencies[] = logintoboggan
 
 
+dependencies[] = ftb_styles
+
 ; Development modules
 dependencies[] = admin_devel
 dependencies[] = admin_menu

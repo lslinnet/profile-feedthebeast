@@ -26,7 +26,9 @@ header.branding {
 section.page-site-name {
   font-size: 72px;
 }
-
+div.box >h2.pane-title {
+  color: black;
+}
 /*
  * Links
  */
@@ -101,4 +103,32 @@ a:hover, a:active {
     float:none;
     padding: 0 34px 10px;
   }
+}
+
+/*
+* Grid for 320 layout Adaptive
+* Responds to browsers smaller than 480px;
+*/
+
+@media all and (max-width: 479px) {
+
+  .container-12 {
+    width: auto;
+  }
+
+  .container-12 .grid-1,
+  .container-12 .grid-2,
+  .container-12 .grid-3,
+  .container-12 .grid-4,
+  .container-12 .grid-5,
+  .container-12 .grid-6,
+  .container-12 .grid-7,
+  .container-12 .grid-8,
+  .container-12 .grid-9,
+  .container-12 .grid-10,
+  .container-12 .grid-11,
+  .container-12 .grid-12 {
+    width: auto;
+  }
+
 }
